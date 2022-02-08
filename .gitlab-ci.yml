@@ -16,7 +16,7 @@ molecule:
   retry: 1
   parallel:
     matrix:
-      - image: "centos"
+      - image: "centos-systemd"
         tag: "latest"
 
 testing:
@@ -27,7 +27,7 @@ testing:
   retry: 1
   parallel:
     matrix:
-      - image: "centos"
+      - image: "centos-systemd"
         tag: "latest"
 
 galaxy:
