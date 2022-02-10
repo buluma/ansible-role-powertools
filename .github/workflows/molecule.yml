@@ -37,6 +37,8 @@ jobs:
         config:
           - image: "centos-systemd"
             tag: "latest"
+          - image: "enterpriselinux"
+            tag: "latest"
     steps:
       - name: checkout
         uses: actions/checkout@v2.4.0

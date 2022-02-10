@@ -29,6 +29,8 @@ testing:
     matrix:
       - image: "centos"
         tag: "latest"
+      - image: "enterpriselinux"
+        tag: "latest"
 
 galaxy:
   script:
