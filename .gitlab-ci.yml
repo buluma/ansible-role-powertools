@@ -1,5 +1,5 @@
 ---
-image: "buluma/github-action-molecule:4.0.5"
+image: "buluma/github-action-molecule:4.0.6"
 
 services:
   - docker:dind
@@ -12,11 +12,11 @@ molecule:
   script:
     - image=${image} tag=${tag} molecule test
   rules:
-    - if: $CI_COMMIT_REF_NAME == "main"
+    - if: $CI_COMMIT_REF_NAME == "master"
   retry: 1
   parallel:
     matrix:
-      - image: "centos"
+      - image: "enterpriselinux"
         tag: "latest"
 
 testing:
@@ -27,11 +27,29 @@ testing:
   retry: 1
   parallel:
     matrix:
-      - image: "centos"
+      - image: "enterpriselinux"
         tag: "latest"
+
+role_testing:
+  script:
+    - image=${image} tag=${tag} ansible-galaxy install buluma.powertools
+  rules:
+    - if: $CI_COMMIT_REF_NAME == "testing"
+  retry: 1
+  parallel:
+    matrix:
       - image: "enterpriselinux"
         tag: "latest"
 
 galaxy:
   script:
     - ansible-galaxy role info buluma.powertools
+
+role_testing_live:
+  script:
+    - image=${image} tag=${tag} ansible-galaxy install buluma.powertools
+  retry: 1
+  parallel:
+    matrix:
+      - image: "enterpriselinux"
+        tag: "latest"

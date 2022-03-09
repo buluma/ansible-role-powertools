@@ -4,7 +4,7 @@ Enable powertools repository on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-powertools/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-powertools/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-powertools/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-powertools)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/powertools)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/powertools)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-powertools.svg)](https://github.com/buluma/ansible-role-powertools/releases/)|
+|[![github](https://github.com/buluma/ansible-role-powertools/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-powertools/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-powertools/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-powertools)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/powertools)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/powertools)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-powertools.svg)](https://github.com/buluma/ansible-role-powertools/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -53,7 +53,7 @@ The following roles are used to prepare a system. You can prepare your system in
 
 | Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
 
 ## [Context](#context)
 
