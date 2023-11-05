@@ -2,9 +2,9 @@
 
 Enable powertools repository on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-powertools/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-powertools/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-powertools/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-powertools)|[![quality](https://img.shields.io/ansible/quality/58335)](https://galaxy.ansible.com/buluma/powertools)|[![downloads](https://img.shields.io/ansible/role/d/58335)](https://galaxy.ansible.com/buluma/powertools)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-powertools.svg)](https://github.com/buluma/ansible-role-powertools/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-powertools.svg)](https://github.com/buluma/ansible-role-powertools/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-powertools.svg)](https://github.com/buluma/ansible-role-powertools/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-powertools/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-powertools/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-powertools/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-powertools)|[![downloads](https://img.shields.io/ansible/role/d/4806)](https://galaxy.ansible.com/buluma/powertools)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-powertools.svg)](https://github.com/buluma/ansible-role-powertools/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-powertools.svg)](https://github.com/buluma/ansible-role-powertools/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-powertools.svg)](https://github.com/buluma/ansible-role-powertools/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
