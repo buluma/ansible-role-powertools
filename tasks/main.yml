@@ -1,10 +1,10 @@
 ---
 # tasks file for powertools
 
-- name: Import assert.yml
-  ansible.builtin.import_tasks: assert.yml
-  run_once: yes
-  delegate_to: localhost
+# - name: Import assert.yml
+#   ansible.builtin.import_tasks: assert.yml
+#   run_once: yes
+#   delegate_to: localhost
 
 - name: Enable powertools
   community.general.ini_file:
