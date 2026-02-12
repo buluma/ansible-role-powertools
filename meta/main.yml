@@ -1,18 +1,14 @@
----
 galaxy_info:
   author: buluma
   role_name: powertools
   description: Enable powertools repository on your system.
   license: Apache-2.0
   company: ShadowNet
-  min_ansible_version: "2.12"
-
+  min_ansible_version: '2.12'
   platforms:
-    - name: EL
-      versions:
-        - "8"
-
+  - name: EL
+    versions:
+    - all
   galaxy_tags:
-    - powertools
-
+  - powertools
 dependencies: []

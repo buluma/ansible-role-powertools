@@ -5,4 +5,4 @@
 repository:
   description: Enable powertools repository on your system.
   homepage: https://buluma.github.io/
-  topics: powertools, ansible, molecule, tox, playbook
+  topics: powertools, ansible, molecule, playbook
