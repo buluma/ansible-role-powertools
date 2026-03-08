@@ -5,16 +5,15 @@
   gather_facts: no
 
   tasks:
-  - name: install a powertools package
-    ansible.builtin.package:
-      name: libpcap-devel
-      state: present
-    notify:
-    - remove a powertools package
+    - name: install a powertools package
+      ansible.builtin.package:
+        name: libpcap-devel
+        state: present
+      notify:
+        - remove a powertools package
 
   handlers:
-
-  - name: remove a powertools package
-    ansible.builtin.package:
-      name: libpcap-devel
-      state: absent
+    - name: remove a powertools package
+      ansible.builtin.package:
+        name: libpcap-devel
+        state: absent
