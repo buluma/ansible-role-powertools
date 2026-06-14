@@ -16,5 +16,5 @@
   notify:
     - Yum update cache
   when:
-    - ansible_distribution in [ "CentOS", "EL", "Rocky", "AlmaLinux" ]
-    - ansible_distribution_major_version >= "8"
+    - ansible_facts.distribution in [ "CentOS", "EL", "Rocky", "AlmaLinux" ]
+    - ansible_facts.distribution_major_version >= "8"
