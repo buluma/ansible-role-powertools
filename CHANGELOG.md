@@ -22,6 +22,7 @@
 - Bump dependabot/fetch-metadata from 1 to 2 [\#23](https://github.com/buluma/ansible-role-powertools/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#22](https://github.com/buluma/ansible-role-powertools/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#21](https://github.com/buluma/ansible-role-powertools/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#20](https://github.com/buluma/ansible-role-powertools/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#19](https://github.com/buluma/ansible-role-powertools/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.3.0](https://github.com/buluma/ansible-role-powertools/tree/0.3.0) (2024-01-20)
@@ -76,7 +77,6 @@
 
 **Merged pull requests:**
 
-- Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#20](https://github.com/buluma/ansible-role-powertools/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 4.0.5 to 4.0.6 [\#1](https://github.com/buluma/ansible-role-powertools/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 
