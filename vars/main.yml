@@ -14,8 +14,8 @@ powertools_repo_name: "{{ _powertools_repo_name[ansible_facts['distribution'] ~ 
 _powertools_repo_file:
   RedHat: "{{ ansible_facts['distribution'] }}-PowerTools.repo"
   Rocky: "{{ ansible_facts['distribution'] }}-PowerTools.repo"
-  Rocky_9: "rocky-addons.repo"
-  Rocky_10: "rocky-addons.repo"
+  Rocky_9: "rocky.repo"
+  Rocky_10: "rocky.repo"
   AlmaLinux_8: "almalinux-PowerTools.repo"
   AlmaLinux_9: "almalinux-crb.repo"
   AlmaLinux_10: "almalinux-crb.repo"
