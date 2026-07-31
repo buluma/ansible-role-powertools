@@ -1,5 +1,9 @@
 # Changelog
 
+## [26.6.1](https://github.com/buluma/ansible-role-powertools/tree/26.6.1) (2026-07-25)
+
+[Full Changelog](https://github.com/buluma/ansible-role-powertools/compare/26.7.0...26.6.1)
+
 ## [26.7.0](https://github.com/buluma/ansible-role-powertools/tree/26.7.0) (2026-07-24)
 
 [Full Changelog](https://github.com/buluma/ansible-role-powertools/compare/26.6.0...26.7.0)
